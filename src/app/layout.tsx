@@ -2,10 +2,9 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ふたりの妊活TODO",
-  description: "家族で共有する妊娠準備のTODOリスト",
+  title: "TODO",
   icons: { icon: "/icon.svg", apple: "/icon.svg" },
-  appleWebApp: { capable: true, title: "妊活TODO", statusBarStyle: "default" },
+  appleWebApp: { capable: true, title: "TODO", statusBarStyle: "default" },
 };
 
 export const viewport: Viewport = {

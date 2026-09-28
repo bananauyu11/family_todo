@@ -28,11 +28,7 @@ export default function LoginPage() {
   return (
     <main className="login">
       <form className="card login-card" onSubmit={submit}>
-        <div className="login-icon" aria-hidden>
-          🌱
-        </div>
-        <h1>ふたりの妊活TODO</h1>
-        <p className="muted">家族の合言葉を入力してください</p>
+        <h1>TODO</h1>
         <input
           type="password"
           value={passcode}
